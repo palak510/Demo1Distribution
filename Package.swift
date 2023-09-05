@@ -4,8 +4,8 @@
 import PackageDescription
 
 let version = "1.0.0"
-let moduleName = "Demo1Module"
-let checksum = "8f42f67a0665798e1c4e149c73a36fb9dddc062bc90e3b4e077ea571613ddda1"
+let moduleName = "Demo1"
+let checksum = "ee3a366edd04619de267e6301e270377aa6ac22cd963a4216096189c5099518c"
 
 let package = Package(
     name: "Demo1Distribution",
@@ -27,7 +27,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: moduleName,
-            url: "https://github.com/litoarias/NetworkModuleDistribution/releases/download/\(version)/\(moduleName).xcframework.zip",
+            url: "https://github.com/palak510/Demo1Distribution/releases/download/\(version)/\(moduleName).xcframework.zip",
             checksum: checksum
         )
     ]
