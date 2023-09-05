@@ -3,9 +3,9 @@
 
 import PackageDescription
 
-let version = "1.0.0"
+let version = "0.0.5"
 let moduleName = "Demo1"
-let checksum = "ee3a366edd04619de267e6301e270377aa6ac22cd963a4216096189c5099518c"
+let checksum = "9b29e8044e77cad8fc9583013d401f2b73e095a6864af2636857ecd5cb217890"
 
 let package = Package(
     name: "Demo1Distribution",
